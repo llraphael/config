@@ -1,22 +1,21 @@
 # Tmux tips
-Split pane: C-b %/"
-Navigate pane: C-b arrow
-Create window C-b c
-Close pane Ctrl + d
-Detach session C-b d
-Select which session to detach C-b D
-Adjust pane size: C-b + M-(arrow) or C-b :resize-pane -DULR 2
-Clear history: C-b + :clear-history
-C-b ,
-
-Save/Restore tmux (Plugin)
-prefix + Ctrl-s - save
-prefix + Ctrl-r - restore
+- Split pane: C-b %/"
+- Navigate pane: C-b arrow
+- Create window: C-b c
+- Close pane: Ctrl + d
+- Detach session: C-b d
+- Select which session to detach: C-b D
+- Adjust pane size: C-b + M-(arrow) or C-b :resize-pane -DULR 2
+- Clear history: C-b + :clear-history
+- 
+- /*Save/Restore tmux (Plugin)*/
+- Save: prefix + Ctrl-s - save
+- Restore: prefix + Ctrl-r - restore
 
 
 # Netrw
-Set cursor directory as root: gn
-Go up dir: -
+- Set cursor directory as root: gn
+- Go up dir: -
 
 # Vim
 line completion: c-x + c-l, use c-p and c-n to scroll through the possibilities.
